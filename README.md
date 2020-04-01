@@ -5,12 +5,16 @@ Perform basic visualization of COVID-19 cases in the state of Pennsylvania
 ## Install Dependencies ##
 
 ```
-pip install streamlit
-pip install panda
-pip install beautifulsoup4
-pip install lxml
-
+pip install -r requirements.txt
 ```
+
+* Web Scraping
+  * panda
+  * beautifulsoup4
+  * lxml
+  * 
+* Analytic App
+  * streamlit
 
 ## Data Source ##
 
