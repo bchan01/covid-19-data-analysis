@@ -12,8 +12,7 @@ pip install -r requirements.txt
   * panda
   * beautifulsoup4
   * lxml
-  * 
-* Analytic App
+* Data Analysis
   * streamlit
 
 ## Data Source ##
