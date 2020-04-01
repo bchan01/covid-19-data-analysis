@@ -1,4 +1,3 @@
 panda
 beautifulsoup4
 lxml
-streamlit

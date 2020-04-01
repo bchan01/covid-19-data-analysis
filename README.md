@@ -25,4 +25,7 @@ pip install -r requirements.txt
 
 ## Visualization ##
 
-TODO --Use Streamlit to host visualization
+* Jupyter NoteBook
+  * jupyter notebook
+  * open data-analysis.ipynb
+* Streamlit Interactive Visualization App (Coming Soon!!)
