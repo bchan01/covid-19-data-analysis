@@ -1,6 +1,6 @@
 # COVID-19 Data Visualization #
 
-Perform basic visualization of COVID-19 cases in the state of Pennsylvania
+Basic visualization of COVID-19 cases in the state of Pennsylvania. The dataset is web scraped from PA Department of Health COVID-19 Website
 
 ## Install Dependencies ##
 
@@ -22,10 +22,14 @@ pip install -r requirements.txt
 * Dataset collected:
       * Negative and Positive Cases and Deaths by date
       * Breakdown of numner of cases by county by date
+* How to Extract Data
+  * Run: python data_extractor_pa.py
+  * CSV file produced: **pa_summary.csv**
 
 ## Visualization ##
 
 * Jupyter NoteBook
+  * Dependencies: run data_extractor_pa.py to get up-to-date dataset **pa_summary.csv**
   * jupyter notebook
   * open data-analysis.ipynb
 * Streamlit Interactive Visualization App (Coming Soon!!)
