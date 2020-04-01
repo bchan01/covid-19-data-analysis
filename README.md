@@ -28,7 +28,7 @@ pip install -r requirements.txt
 
 ## Visualization ##
 
-* Jupyter NoteBook
+* Jupyter NoteBook - https://github.com/bchan01/covid-19-data-analysis/blob/master/data-analysis.ipynb
   * Dependencies: run data_extractor_pa.py to get up-to-date dataset **pa_summary.csv**
   * jupyter notebook
   * open data-analysis.ipynb
