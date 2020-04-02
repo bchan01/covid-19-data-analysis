@@ -2,28 +2,30 @@
 
 Basic visualization of COVID-19 cases in the state of Pennsylvania. The dataset is web scraped from PA Department of Health COVID-19 Website
 
-## Install Dependencies ##
+-------------
 
+## Install Dependencies ##
 ```
 pip install -r requirements.txt
 ```
-
-**Widget:** https://ipywidgets.readthedocs.io/en/latest/index.html
-
-* Option 1: Conda
-   * conda install -c conda-forge ipywidgets
-* Option 2: pip
-  * pip install ipywidgets
-  * jupyter nbextension enable --py widgetsnbextension
-
-* Web Scraping
+* **Web Scraping**
   * beautifulsoup4
   * lxml
 
-* Data Analysis
+* **Data Analysis**
   * panda
   * matplotlib
+  * numpy
   * streamlit
+
+* **Jupyter Widgets:** (https://ipywidgets.readthedocs.io/en/latest/index.html)
+  * Option 1: Conda
+     * conda install -c conda-forge ipywidgets
+  * Option 2: pip
+    * pip install ipywidgets
+    * jupyter nbextension enable --py widgetsnbextension
+
+-------------
 
 ## Data Source ##
 
@@ -36,10 +38,12 @@ pip install -r requirements.txt
   * Run: python data_extractor_pa.py
   * CSV file produced: **pa_summary.csv**
 
+-------------
+
 ## Visualization ##
 
-* Jupyter NoteBook - https://github.com/bchan01/covid-19-data-analysis/blob/master/data-analysis.ipynb
-  * Dependencies: run data_extractor_pa.py to get up-to-date dataset **pa_summary.csv**
+* **Jupyter NoteBook** - https://github.com/bchan01/covid-19-data-analysis/blob/master/data-analysis.ipynb
+  * Dependencies: run data_extractor_pa.py to get up-to-date **pa_summary.csv** and **pa_county.csv** dataset
   * jupyter notebook
   * open data-analysis.ipynb
-* Streamlit Interactive Visualization App (Coming Soon!!)
+* **Streamlit Interactive Visualization App** (Coming Soon!!)
