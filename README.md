@@ -1,6 +1,6 @@
 # COVID-19 Data Visualization #
 
-Basic visualization of COVID-19 cases in the state of Pennsylvania. The dataset is web scraped from PA Department of Health COVID-19 Website
+Basic visualization of COVID-19 cases in the state of Pennsylvania. The dataset is obtained from PA Department of Health COVID-19 Website through Web Scraping
 
 -------------
 
