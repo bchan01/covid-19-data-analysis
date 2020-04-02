@@ -10,15 +10,13 @@ pip install -r requirements.txt
 
 **Widget:** https://ipywidgets.readthedocs.io/en/latest/index.html
 
-```
-Option 1: Conda
-conda install -c conda-forge ipywidgets
+* Option 1: Conda
+  * conda install -c conda-forge ipywidgets
 
-Option 2: pip
-pip install ipywidgets
-jupyter nbextension enable --py widgetsnbextension
+* Option 2: pip
+ * pip install ipywidgets
+ * jupyter nbextension enable --py widgetsnbextension
 
-```
 
 * Web Scraping
   * panda
