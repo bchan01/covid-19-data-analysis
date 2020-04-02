@@ -10,6 +10,7 @@ COUNTY_FILE = 'pa_county.csv'
 
 CUTOFF_DATE = 'March 17, 2020'
 
+# Extract all the Dates
 def extract_dates(soup):
     # Extract Date Headers
     # Web Site contains completed data dating back to March 18
@@ -25,7 +26,7 @@ def extract_dates(soup):
     print('Date Count: %d' % len(date_headings))
     return date_headings
 
-
+# Parse Summary tables and match to the dates
 def extract_summary_data(soup, date_list):
 
     table_body_sections = soup.find_all('tbody')
@@ -71,6 +72,7 @@ def extract_summary_data(soup, date_list):
             file.write(row)
             line += 1
 
+# Parse County detail tables and match to the dates
 def extract_county_data(soup, date_list):
     
     table_body_sections = soup.find_all('tbody')
@@ -89,7 +91,7 @@ def extract_county_data(soup, date_list):
         columns = [x.text.strip().replace('\u200b', '') for x in columns]
         if len(columns) < 1:
             continue;
-        
+
         startIdx = -1
         # County, Number of Cases|Cases, Deaths
         if columns[0] == 'County':
