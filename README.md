@@ -16,12 +16,13 @@ pip install -r requirements.txt
   * pip install ipywidgets
   * jupyter nbextension enable --py widgetsnbextension
 
-
 * Web Scraping
-  * panda
   * beautifulsoup4
   * lxml
+
 * Data Analysis
+  * panda
+  * matplotlib
   * streamlit
 
 ## Data Source ##
