@@ -16,7 +16,7 @@ pip install -r requirements.txt
   * panda
   * matplotlib
   * numpy
-  * streamlit
+  * folium
 
 * **Jupyter Widgets:** (https://ipywidgets.readthedocs.io/en/latest/index.html)
   * Option 1: Conda
