@@ -36,7 +36,9 @@ pip install -r requirements.txt
       * Breakdown of numner of cases by county
 * How to Extract Data
   * Run: python data_extractor_pa.py
-  * CSV file produced: **pa_summary.csv**
+  * CSV file produced: 
+     * **pa_summary.csv**
+     * **pa_county.csv**
 
 -------------
 
