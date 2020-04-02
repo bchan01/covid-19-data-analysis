@@ -32,8 +32,8 @@ pip install -r requirements.txt
 * Perform Web Scraping to obtain daily data from PA Department of Health:   
       * https://www.health.pa.gov/topics/disease/coronavirus/Pages/Archives.aspx
 * Dataset collected:
-      * Negative and Positive Cases and Deaths
-      * Breakdown of numner of cases by county
+  * Negative and Positive Cases and Deaths
+  * Breakdown of numner of cases by county
 * How to Extract Data
   * Run: python data_extractor_pa.py
   * CSV file produced: 
