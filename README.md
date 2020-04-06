@@ -1,6 +1,6 @@
 # COVID-19 Data Visualization #
 
-Jupyter Notebook: https://nbviewer.jupyter.org/github/bchan01/covid-19-data-analysis/blob/master/data-analysis.ipynb
+Jupyter Notebook: https://nbviewer.jupyter.org/github/bchan01/covid-19-data-analysis/blob/master/data-analysis.ipynb?flush_cache=true
 
 Basic visualization of COVID-19 cases in the state of Pennsylvania. The dataset is obtained from PA Department of Health COVID-19 Website through Web Scraping
 
