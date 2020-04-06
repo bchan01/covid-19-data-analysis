@@ -51,8 +51,8 @@ pip install -r requirements.txt
 ## Visualization ##
 
 * **Jupyter NoteBook**
-  * https://nbviewer.jupyter.org/github/bchan01/covid-19-data-analysis/blob/master/data-analysis.ipynb
   * Dependencies: run data_extractor_pa.py to get up-to-date **pa_summary.csv** and **pa_county.csv** dataset
   * jupyter notebook
   * open data-analysis.ipynb
-* **Streamlit Interactive Visualization App** (Coming Soon!!)
+  
+* **Streamlit Interactive Visualization App** (COMINT SOON!!)
