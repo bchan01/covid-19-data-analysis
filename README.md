@@ -4,7 +4,7 @@ Jupyter Notebook: https://nbviewer.jupyter.org/github/bchan01/covid-19-data-anal
 
 Basic visualization of COVID-19 cases in the state of Pennsylvania. The dataset is obtained from PA Department of Health COVID-19 Website through Web Scraping
 
-![map]("sample_map.png" "data map")
+![map](sample_map.png "data map")
 
 
 -------------
@@ -44,6 +44,7 @@ pip install -r requirements.txt
   * CSV file produced: 
      * **pa_summary.csv**
      * **pa_county.csv**
+     * **pa_county_geolocation.csv**
 
 -------------
 
