@@ -1,5 +1,7 @@
 # COVID-19 Data Visualization #
 
+Jupyter Notebook: https://nbviewer.jupyter.org/github/bchan01/covid-19-data-analysis/blob/master/data-analysis.ipynb
+
 Basic visualization of COVID-19 cases in the state of Pennsylvania. The dataset is obtained from PA Department of Health COVID-19 Website through Web Scraping
 
 ![map]("sample_map.png" "data map")
@@ -47,7 +49,8 @@ pip install -r requirements.txt
 
 ## Visualization ##
 
-* **Jupyter NoteBook** - https://github.com/bchan01/covid-19-data-analysis/blob/master/data-analysis.ipynb
+* **Jupyter NoteBook**
+  * https://nbviewer.jupyter.org/github/bchan01/covid-19-data-analysis/blob/master/data-analysis.ipynb
   * Dependencies: run data_extractor_pa.py to get up-to-date **pa_summary.csv** and **pa_county.csv** dataset
   * jupyter notebook
   * open data-analysis.ipynb
