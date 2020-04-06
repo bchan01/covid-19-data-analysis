@@ -2,6 +2,9 @@
 
 Basic visualization of COVID-19 cases in the state of Pennsylvania. The dataset is obtained from PA Department of Health COVID-19 Website through Web Scraping
 
+![map]("sample_map.png" "data map")
+
+
 -------------
 
 ## Install Dependencies ##
