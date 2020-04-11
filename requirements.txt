@@ -1,4 +1,7 @@
 panda
+matplotlib
+numpy
 beautifulsoup4
 lxml
 folium
+ipywidgets

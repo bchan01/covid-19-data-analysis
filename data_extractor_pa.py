@@ -19,6 +19,7 @@ CUTOFF_DATE = 'March 17, 2020'
 MAP_QUEST_KEY = "f9JUrNV4hWJ9jXNKPmtEBQGhH7jlaARg"
 MAP_QUEST_URL = "http://open.mapquestapi.com/geocoding/v1/address"
 
+MONTHS = ['March', 'April', 'May', 'June', 'July', 'August']
 # Extract all the Dates
 def extract_dates(soup):
     # Extract Date Headers
@@ -27,7 +28,8 @@ def extract_dates(soup):
     date_headings = []
     for heading in soup.find_all('h4'):
         heading_value = heading.text.strip()
-        if heading_value.startswith('March') or heading_value.startswith('April'):
+        month_str = heading_value.split(' ')[0]
+        if month_str in MONTHS:
             dt = parse(heading.text)
             if dt > cutoff_date:
                 print('H4: %s' % heading_value)
